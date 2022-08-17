@@ -7,7 +7,8 @@ const AnimatedCheckMarkPath = ({progress, checkMarkColor}) => {
   const AnimatedPath = Animated.createAnimatedComponent(Path);
   const checkMarkAnimation = useAnimatedProps(() => {
     const strokeDashoffset = length - length * progress.value;
-    return {strokeDashoffset};
+    const opacity = progress.value;
+    return {strokeDashoffset, opacity};
   });
   return (
     <AnimatedPath
