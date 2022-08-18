@@ -2,6 +2,16 @@
 
 Create animated custom checkbox in react native using [Reanimated 2](https://docs.swmansion.com/react-native-reanimated/) and [SVG](https://github.com/react-native-svg/react-native-svg)
 
+## Demo
+
+Custom Switch Component Demo
+
+![Demo1](https://github.com/Rakha112/react-native-custom-checkbox/blob/main/Demo1.gif)
+
+Demo on Android and Ios
+
+![Demo2](https://github.com/Rakha112/react-native-custom-checkbox/blob/main/Demo2.gif)
+
 ## Run Locally
 
 Clone the project
