@@ -4,7 +4,7 @@ import Animated, {
   interpolateColor,
 } from 'react-native-reanimated';
 import {Path} from 'react-native-svg';
-const AnimatedBackPath = ({
+const AnimatedColor = ({
   progress,
   unCheckedBorderColor,
   checkedBorderColor,
@@ -34,4 +34,4 @@ const AnimatedBackPath = ({
   );
 };
 
-export default AnimatedBackPath;
+export default AnimatedColor;
