@@ -30,6 +30,8 @@ const App = () => {
           }}>
           <View>
             <CustomCheckBox
+              width={50}
+              height={50}
               checked={checked}
               checkMarkColor={'white'}
               checkedBorderColor={'#FFA901'}
@@ -47,6 +49,8 @@ const App = () => {
           }}>
           <View>
             <CustomCheckBox
+              width={50}
+              height={50}
               checked={checked2}
               checkMarkColor={'white'}
               checkedBorderColor={'#378BA4'}
@@ -64,6 +68,8 @@ const App = () => {
           }}>
           <View>
             <CustomCheckBox
+              width={50}
+              height={50}
               checked={checked3}
               checkMarkColor={'white'}
               checkedBorderColor={'#107980'}
@@ -81,6 +87,8 @@ const App = () => {
           }}>
           <View>
             <CustomCheckBox
+              width={50}
+              height={50}
               checked={checked4}
               checkMarkColor={'white'}
               checkedBorderColor={'#796EA8'}
