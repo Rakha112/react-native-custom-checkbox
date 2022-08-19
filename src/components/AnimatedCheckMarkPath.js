@@ -1,7 +1,8 @@
-import React, {useRef, useState} from 'react';
+import React, {useRef, useState, memo} from 'react';
 import Animated, {useAnimatedProps} from 'react-native-reanimated';
 import {Path} from 'react-native-svg';
-const AnimatedCheckMarkPath = ({progress, checkMarkColor}) => {
+const AnimatedCheckMarkPath = memo(props => {
+  const {progress, checkMarkColor} = props;
   const [length, setLength] = useState(0);
   const pathRef = useRef(null);
   const AnimatedPath = Animated.createAnimatedComponent(Path);
@@ -23,6 +24,6 @@ const AnimatedCheckMarkPath = ({progress, checkMarkColor}) => {
       strokeDasharray={length}
     />
   );
-};
+});
 
 export default AnimatedCheckMarkPath;

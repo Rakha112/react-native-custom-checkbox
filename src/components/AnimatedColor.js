@@ -1,16 +1,17 @@
-import React from 'react';
+import React, {memo} from 'react';
 import Animated, {
   useAnimatedProps,
   interpolateColor,
 } from 'react-native-reanimated';
 import {Path} from 'react-native-svg';
-const AnimatedColor = ({
-  progress,
-  unCheckedBorderColor,
-  checkedBorderColor,
-  unCheckedBackgroundColor,
-  checkedBackgroundColor,
-}) => {
+const AnimatedColor = memo(props => {
+  const {
+    progress,
+    unCheckedBorderColor,
+    checkedBorderColor,
+    unCheckedBackgroundColor,
+    checkedBackgroundColor,
+  } = props;
   const AnimationColor = Animated.createAnimatedComponent(Path);
   const animation = useAnimatedProps(() => {
     const fill = interpolateColor(
@@ -32,6 +33,6 @@ const AnimatedColor = ({
       strokeWidth={4}
     />
   );
-};
+});
 
 export default AnimatedColor;

@@ -1,9 +1,9 @@
-import React, {memo} from 'react';
+import React from 'react';
 import Svg from 'react-native-svg';
 import {useDerivedValue, withTiming} from 'react-native-reanimated';
 import AnimatedCheckMarkPath from './AnimatedCheckMarkPath';
 import AnimatedColor from './AnimatedColor';
-const CustomCheckBox = memo(props => {
+const CustomCheckBox = props => {
   const {
     checked,
     checkMarkColor,
@@ -33,6 +33,6 @@ const CustomCheckBox = memo(props => {
       />
     </Svg>
   );
-});
+};
 
 export default CustomCheckBox;
