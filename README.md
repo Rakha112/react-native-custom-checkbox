@@ -2,6 +2,12 @@
 
 Create animated custom checkbox in react native using [Reanimated 2](https://docs.swmansion.com/react-native-reanimated/) and [SVG](https://github.com/react-native-svg/react-native-svg)
 
+Youtube Video - https://youtu.be/8aax8SU0F2w
+
+Figma Design - https://drive.google.com/file/d/1OhFsQzT71W5tZxdOcVTowvsCc2eGWQL-/view?usp=sharing
+
+SVG File - https://drive.google.com/file/d/1sWZKS20aU26DzxllgVFidqc4tIP5OM3j/view?usp=sharing
+
 ## Demo
 
 Custom Switch Component Demo
